@@ -1,0 +1,13 @@
+{
+  "name": "e-learning-recommender",
+  "version": "1.0.0",
+  "description": "Hybrid e-learning recommender system",
+  "main": "src/recommender.js",
+  "scripts": {
+    "start": "node src/recommender.js",
+    "api": "node api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
