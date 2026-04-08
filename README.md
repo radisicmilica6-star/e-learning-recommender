@@ -13,14 +13,23 @@ Sistem analizira različite aktivnosti korisnika, kao što su:
 
 ## Struktura projekta
 e-learning-recommender/
+
 ├─ src/
+
 │ ├─ recommender.js
+
 │ └─ data.js
+
 ├─ api/
+
 │ ├─ server.js
+
 │ └─ routes.js
+
 ├─ node_modules/
+
 ├─ package.json
+
 └─ README.md
 
 Autor Milica Radišić
