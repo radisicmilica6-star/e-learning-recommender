@@ -1,35 +1,36 @@
-# E-Learning Recommender System
+Inteligentni sistem za preporučivanje nastavnih materijala
 
-Ovo je primer mini inteligentnog sistema za preporučivanje nastavnih materijala i lekcija na osnovu korisničkih aktivnosti u sistemu e-učenja.
+Opis projekta
 
-## Kako sistem radi
+Ovaj projekat predstavlja inteligentni sistem za preporučivanje nastavnih materijala u okviru e-learning platforme.
 
-Sistem analizira različite aktivnosti korisnika, kao što su:
-- pregledani nastavni materijali
-- istorija učenja korisnika
-- interesovanja korisnika (vezano za učenje i školovanje)
-- rezultati kvizova i testova i sl.
----
+Sistem analizira aktivnosti korisnika i na osnovu toga generiše personalizovane preporuke za dalje učenje.
 
-## Struktura projekta
-e-learning-recommender/
+Cilj sistema je unapređenje procesa učenja kroz prilagođavanje sadržaja individualnim potrebama korisnika.
 
-├─ src/
+Funkcionalnosti
+Personalizovane preporuke nastavnih materijala
+Analiza korisničkih aktivnosti
+Content-based algoritam preporuke
+Jednostavna i proširiva arhitektura sistema
+Mogućnost integracije sa e-learning platformama
 
-│ ├─ recommender.js
+Korišćene tehnologije
+Python
+Scikit-learn
+Pandas i NumPy
+FastAPI (opciono)
+Redis
+PostgreSQL / SQLite
 
-│ └─ data.js
+Način rada sistema
 
-├─ api/
+Sistem funkcioniše kroz sledeće korake:
 
-│ ├─ server.js
-
-│ └─ routes.js
-
-├─ node_modules/
-
-├─ package.json
-
-└─ README.md
+Prikupljanje podataka o korisniku
+Kreiranje korisničkog profila
+Analiza nastavnih materijala
+Izračunavanje sličnosti
+Generisanje preporuka
 
 Autor Milica Radišić
